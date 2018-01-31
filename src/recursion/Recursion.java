@@ -10,9 +10,10 @@ public class Recursion {
 
 		// TODO: Print the list above using your printList method
         printList(randomMultiSet);
+		System.out.println();
 		
 		// TODO: Print the results of running your isSubsetSum method on the above list
-
+		System.out.println(isSubsetSum(randomMultiSet));
 	}
 
 	public static List<Integer> randomIntegerGenerator(List<Integer> generate, int length) {
@@ -47,5 +48,7 @@ public class Recursion {
 	// TODO: Write a static method isSubsetSum which checks a list to see if there is a
 	// non-empty multiset(set with repeats allowed so basically a list) which sums
 	// to zero and returns a boolean without any loops
-
+	public static boolean isSubsetSum(List<Integer> list){
+		return false;
+	}
 }
